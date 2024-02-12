@@ -14,6 +14,12 @@ This Python script demonstrates image segmentation using two techniques: Otsu's 
 
 Three types of images were used for testing: a real-life traffic scene, a distorted monochromatic photo of a person, and a well-lit, noise-free portrait. 
 
+![Result1](https://github.com/ArunMekkad/ImageSegmentation---Otsu---Kmeans/blob/main/Result1.png)
+
+![Result2](https://github.com/ArunMekkad/ImageSegmentation---Otsu---Kmeans/blob/main/Result2.png)
+
+![Result3](https://github.com/ArunMekkad/ImageSegmentation---Otsu---Kmeans/blob/main/Result3.png)
+
 **Otsu's Thresholding** is particularly effective when there is a clear bimodal distribution in the grayscale histogram of the image, which makes it suitable for images with high contrast and distinct objects. It performed well on the real-life traffic scene and the well-lit, noise-free portrait.
 
 **K-means Clustering**, on the other hand, is more flexible and can adapt to a wider range of scenarios. It performed better on the distorted monochromatic photo, where it was able to capture more detail within the objects despite the distortion and monochromatic nature of the image.
