@@ -12,8 +12,6 @@ This Python script demonstrates image segmentation using two techniques: Otsu's 
 
 5. **Display the Images**: Finally, the script uses Matplotlib to display the original and segmented images.
 
-!./Result1.png
-
 Three types of images were used for testing: a real-life traffic scene, a distorted monochromatic photo of a person, and a well-lit, noise-free portrait. 
 
 **Otsu's Thresholding** is particularly effective when there is a clear bimodal distribution in the grayscale histogram of the image, which makes it suitable for images with high contrast and distinct objects. It performed well on the real-life traffic scene and the well-lit, noise-free portrait.
